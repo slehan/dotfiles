@@ -10,7 +10,7 @@ touch ~/.zshrc-custom
 echo "To customize your .zshrc, edit the ~/.zshrc-custom file"
 
 echo "Setting up tmux..."
-git submodule init
+git submodule update --init
 mkdir ~/.tmux
 ln -s ~/.dotfiles/.tmux/.tmux.conf ~/.tmux/.tmux.conf
 ln -s ~/.dotfiles/.tmux/.tmux.conf.local ~/.tmux.conf.local
