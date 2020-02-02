@@ -12,6 +12,6 @@ echo "To customize your .zshrc, edit the ~/.zshrc-custom file"
 echo "Setting up tmux..."
 git submodule update --init
 mkdir ~/.tmux
-ln -s ~/.dotfiles/.tmux/.tmux.conf ~/.tmux/.tmux.conf
+ln -s ~/.dotfiles/.tmux/.tmux.conf ~/.tmux.conf
 ln -s ~/.dotfiles/.tmux/.tmux.conf.local ~/.tmux.conf.local
 echo "If you want to customize tmux, edit ~/.tmux.conf.local"
